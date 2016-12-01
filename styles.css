@@ -5,39 +5,131 @@ html{
 #header-wrapper{
 	max-width: 900px;
 	width: 100%;
-	overflow: hidden;
 	margin: auto;
-	border-bottom: solid black 1px;
+	/* border-bottom: solid black 1px; */
 
 }
 #header{
+	height: 100%;
 	width: 100%;
+	display: inline-block;
+}
 
+#header-left{
+	display: inline-block;
+	height: 100%;
 }
 
 #youtube-logo{
 	height: 100px;
 }
 
+#youtube-logo img{
+
+}
+
 #broadcast-yourself{
-	margin-bottom: 50px;
 	font-size: 12px;
 	color: #DCDCDC;
 	font-weight: bold;
 	text-align: center;
+	padding-bottom: 50px;
 
 }
 
-#header-left{
-	float: left;
+#header-middle-top{
+	display: inline-block;
 }
 
-#header-middle{
-	float: left;
-	background-color: blue;
+
+#youtube-search{
+	text-align: center;
+	margin-left: 20px;
+}
+
+#youtube-search input{
+	width: 350px;
+	height: 20px;
+	margin-top: 65px;
+	border-top: solid black 1px;
+	border-right: solid black 1px;
+	border-left: solid gray 1px;
+	border-bottom: solid gray 1px;
+}
+
+#youtube-search button{
+	font-family: arial;
+	font-size: 12px;
+	border-radius: 0%;
+	background-color: white;
+	height: 25px;
+}
+
+#header-middle-bottom{
+	display: inline-block;
+
+}
+
+.header-middle-item{
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 10px;
+}
+
+#home{
+	color: grey;
+	font-weight: bold;
+
+}
+
+#videos{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#channels{
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 #header-right{
-	float: right;
-	background-color: red;
+	display: inline-block;
+	font-size: 12px;
+
+}
+
+#header-right-top{
+	display: inline-block;
+	margin-left: 139px;
+	margin-bottom: 32px;
+}
+
+.header-right-top{
+	display: inline-block;
+}
+
+#create-account{
+	color: blue;
+	font-weight: bold;
+}
+
+#or{
+	font-weight: bold;
+
+}
+
+#sign-in{
+	color: blue;
+	font-weight: bold;
+}
+
+#header-right-bottom{
+	margin-left: 52px;
+}
+
+.header-right-bottom{
+	display: inline-block;
+	padding-left: 20px;
+	font-weight: bold;
 }
